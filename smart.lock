@@ -1,0 +1,33 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "twit": {},
+      "stripe": {},
+      "sync-methods": {},
+      "accounts-stripe": {}
+    },
+    "packages": {
+      "twit": {
+        "git": "https://github.com/subhog/meteor-twit.git",
+        "tag": "v0.2.0",
+        "commit": "3eb473f9efef8c77ae6a8eb6715fbdf93c4d87c0"
+      },
+      "stripe": {
+        "git": "https://github.com/appleifreak/stripe-meteor.git",
+        "tag": "v1.4.0",
+        "commit": "7afbaecda1442124566096cd52f55170e4a78033"
+      },
+      "sync-methods": {
+        "git": "https://github.com/ianserlin/meteor-sync-methods.git",
+        "tag": "v0.1.1",
+        "commit": "2a7b094d54f3fb7c9acebbe10b68f9db1e5f156b"
+      },
+      "accounts-stripe": {
+        "git": "https://github.com/khamoud/meteor-accounts-stripe.git",
+        "tag": "v0.0.2",
+        "commit": "eea0762ddfc1ea4022bda5643c1d95fdf325fe7d"
+      }
+    }
+  }
+}

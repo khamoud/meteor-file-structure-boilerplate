@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "twit": {},
+    "stripe": {},
+    "sync-methods": {},
+    "accounts-stripe": {}
+  }
+}

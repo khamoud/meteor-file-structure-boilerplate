@@ -5,3 +5,16 @@
 
 standard-app-packages
 preserve-inputs
+jquery
+twit
+stripe
+accounts-base
+accounts-oauth
+oauth2
+http
+underscore
+random
+service-configuration
+accounts-ui
+sync-methods
+accounts-stripe

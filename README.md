@@ -1,0 +1,1 @@
+Boilerplate meteor file structure
