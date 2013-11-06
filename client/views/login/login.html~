@@ -1,0 +1,43 @@
+<template name="buyerLogin">
+  <div class="container-fluid" id="login">
+    <div class="container dark">
+      <h1>Signing up is easy!</h1>	
+      <h2>Fill out this form and you're ready to go!</h2>
+      <div class="row span8 center">
+		    <form class='form-horizontal' id="form">
+		        <div class='control-group'>
+		          <div class='controls'>
+		            <label class="black">Card Number</label>
+		            <input type="text" id='cardNumber' placeholder="4242424242424242">
+		            <span class="help-block">The number on the front of your card</span>
+		          </div>
+		        </div>
+		        <div class='control-group'>
+		          <div class='controls'>
+		            <label class="black">CVC</label>
+		            <input type="text" id='cvc' class="input-small" placeholder="123">
+		            <span class="help-block">3 digit number on the back of your card</span>
+		          </div>
+		        </div>
+		        <div class='control-group'>
+		          <div class='controls'>
+		            <label class="black">Expiration Month</label>
+		            <input type="text" id='exp_month' class="input-small" placeholder="06">
+		            <span class="help-block">The month your card expires</span>
+		          </div>
+		        </div>
+		        <div class='control-group'>
+		          <div class='controls'>
+		            <label class="black">Expiration Year</label>
+		            <input type="text" id='exp_year' class="input-small" placeholder="2016">
+		            <span class="help-block">The year your card expires</span>
+		          </div>
+		        </div>
+		        <button type="submit" id="submit-buyer" class="btn center">Submit</button>
+		    </form>
+		   </div>
+    </div>
+  </div>
+  {{> about }} 
+  {{> contact}}
+</template>

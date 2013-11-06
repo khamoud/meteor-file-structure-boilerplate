@@ -3,6 +3,7 @@
     "twit": {},
     "stripe": {},
     "sync-methods": {},
-    "accounts-stripe": {}
+    "accounts-stripe": {},
+    "iron-router": {}
   }
 }

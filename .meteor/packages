@@ -18,3 +18,5 @@ service-configuration
 accounts-ui
 sync-methods
 accounts-stripe
+iron-router
+accounts-twitter

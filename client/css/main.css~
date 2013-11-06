@@ -352,7 +352,7 @@ h1 {
 
 #form{
 	background-color: white;
-	padding-top:30px;
+	padding-top:20px;
 	padding-bottom:30px;
 	border-radius: 5px;
 }
